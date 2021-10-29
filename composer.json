@@ -1,0 +1,28 @@
+{
+    "name": "zeroandone/packagetest",
+    "description": "this is test",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zeroandone\\Packagetest\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zeroandone\\Packagetest\\Tests\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ZeroAndOne\\PackageTest\\ZeroServiceProvider"
+            ],
+            "aliases":[
+                "ZeroAndOne\\PackageTest\\Facade\\Zero"
+            ]
+        }
+    }
+
+}
