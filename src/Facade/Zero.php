@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ZeroAndOne\PackageTest\Facade;
+namespace Zeroandone\Packagetest\Facade;
 
 
 use Illuminate\Support\Facades\Facade;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZeroAndOne\PackageTest;
+namespace Zeroandone\Packagetest;
 
 use Illuminate\Support\ServiceProvider;
 

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ZeroAndOne\PackageTest;
+namespace Zeroandone\Packagetest;
 
 class Zero
 {
